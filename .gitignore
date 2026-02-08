@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Git
+*.swp
+
+# Secrets
+.env.*
+*.key
+*.pem
+
+# Data & models (important for AI projects)
+data/
+datasets/
+models/
+embeddings/
+faiss_index/
+qdrant_data/
+
+# Logs
+logs/

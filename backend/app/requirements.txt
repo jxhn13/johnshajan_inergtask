@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+minio
+qdrant-client
+llama-index
+llama-index-core
+llama-index-vector-stores-qdrant
+llama-index-embeddings-google-genai
+llama-index-llms-google-genai
+llama-index-embeddings-huggingface
+google-generativeai
+PyPDF2
+python-dotenv
+requests
+sentence-transformers
+watchdog

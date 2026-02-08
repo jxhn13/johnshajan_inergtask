@@ -12,8 +12,6 @@ def get_index():
         enable_hybrid=False,
     )
 
-    storage_context = StorageContext.from_defaults(
-        vector_store=vector_store
-    )
+
 
     return VectorStoreIndex.from_vector_store(vector_store)
